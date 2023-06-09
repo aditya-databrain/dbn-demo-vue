@@ -8,9 +8,9 @@
   "version" "7.22.4"
 
 "@babel/runtime@^7.12.5", "@babel/runtime@^7.21.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
-  "integrity" "sha512-XsDuspWKLUsxwCp6r7EhsExHtYfbe5oAGQ19kqngTdCPUoPQzOPdUbD/pB9PJiwb2ptYKQDjSJT3R6dC+EPqfQ=="
-  "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.22.3.tgz"
-  "version" "7.22.3"
+  "integrity" "sha512-ecjvYlnAaZ/KVneE/OdKYBYfgXV3Ptu6zQWmgEF7vwKhQnvVS6bjMD2XYgj+SNvQ1GfK/pjgokfPkC/2CO8CuA=="
+  "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.22.5.tgz"
+  "version" "7.22.5"
   dependencies:
     "regenerator-runtime" "^0.13.11"
 
@@ -56,16 +56,16 @@
     "remove-accents" "0.4.2"
 
 "@tanstack/react-table@^8.7.9":
-  "integrity" "sha512-yHs2m6lk5J5RNcu2dNtsDGux66wNXZjEgzxos6MRCX8gL+nqxeW3ZglqP6eANN0bGElPnjvqiUHGQvdACOr3Cw=="
-  "resolved" "https://registry.npmjs.org/@tanstack/react-table/-/react-table-8.9.1.tgz"
-  "version" "8.9.1"
+  "integrity" "sha512-Irvw4wqVF9hhuYzmNrlae4IKdlmgSyoRWnApSLebvYzqHoi5tEsYzBj6YPd0hX78aB/L+4w/jgK2eBQVpGfThQ=="
+  "resolved" "https://registry.npmjs.org/@tanstack/react-table/-/react-table-8.9.2.tgz"
+  "version" "8.9.2"
   dependencies:
-    "@tanstack/table-core" "8.9.1"
+    "@tanstack/table-core" "8.9.2"
 
-"@tanstack/table-core@8.9.1":
-  "integrity" "sha512-2+R83n8vMZND0q3W1lSiF7co9nFbeWbjAErFf27xwbeA9E0wtUu5ZDfgj+TZ6JzdAEQAgfxkk/QNFAKiS8E4MA=="
-  "resolved" "https://registry.npmjs.org/@tanstack/table-core/-/table-core-8.9.1.tgz"
-  "version" "8.9.1"
+"@tanstack/table-core@8.9.2":
+  "integrity" "sha512-ajc0OF+karBAdaSz7OK09rCoAHB1XI1+wEhu+tDNMPc+XcO+dTlXXN/Vc0a8vym4kElvEjXEDd9c8Zfgt4bekA=="
+  "resolved" "https://registry.npmjs.org/@tanstack/table-core/-/table-core-8.9.2.tgz"
+  "version" "8.9.2"
 
 "@vitejs/plugin-vue@^4.1.0":
   "integrity" "sha512-R6JDUfiZbJA9cMiguQ7jxALsgiprjBeHL5ikpXfJCH62pPHtI+JdJ5xWj6Ev73yXSlYl86+blXn1kZHQ7uElxw=="
@@ -282,10 +282,10 @@
   dependencies:
     "@babel/runtime" "^7.21.0"
 
-"dbn-ui-test-1@^0.0.5":
-  "integrity" "sha512-KhwGmJpbzC6DbiXHqyM4x/ktjdgQQESDr1IBtjRXtSwdAlxKT2d9uWwUM+BWIQ1VVR1riXsgiBBiCVnlE6Ex0w=="
-  "resolved" "https://registry.npmjs.org/dbn-ui-test-1/-/dbn-ui-test-1-0.0.5.tgz"
-  "version" "0.0.5"
+"dbn-ui-test-1@^0.0.6":
+  "integrity" "sha512-iepuH4JktdDZPD69QDN8p328jjs+xI9eW8iSwX/Xl6gg3Q93i17m5hGb2J0l2Wb2cUwF+t8jXN9nzXlN2f30fQ=="
+  "resolved" "https://registry.npmjs.org/dbn-ui-test-1/-/dbn-ui-test-1-0.0.6.tgz"
+  "version" "0.0.6"
   dependencies:
     "@headlessui/react" "^1.7.2"
     "@r2wc/react-to-web-component" "^2.0.2"
@@ -295,28 +295,6 @@
     "classnames" "^2.3.2"
     "echarts" "^5.4.1"
     "echarts-for-react" "^3.0.2"
-    "prop-types" "^15.8.1"
-    "react-ace" "^10.1.0"
-    "react-datepicker" "^4.11.0"
-    "react-error-boundary" "^3.1.4"
-    "react-grid-layout" "^1.3.4"
-    "react-hook-form" "^7.33.1"
-    "react-query" "^3.39.2"
-
-"dbn-ui-test@^0.0.1":
-  "integrity" "sha512-OPsRANQ1ukOs2QQ0J4mlLS3mqZXowrFSOu/32++4xU4G0w92W2uJo+uJhRd2k0PoUKZqhVoo/j5T7sHN3MFyDA=="
-  "resolved" "https://registry.npmjs.org/dbn-ui-test/-/dbn-ui-test-0.0.1.tgz"
-  "version" "0.0.1"
-  dependencies:
-    "@headlessui/react" "^1.7.2"
-    "@r2wc/react-to-web-component" "^2.0.2"
-    "@tanstack/match-sorter-utils" "^8.8.4"
-    "@tanstack/react-table" "^8.7.9"
-    "ace-builds" "^1.17.0"
-    "classnames" "^2.3.2"
-    "echarts" "^5.4.1"
-    "echarts-for-react" "^3.0.2"
-    "prop-types" "^15.8.1"
     "react-ace" "^10.1.0"
     "react-datepicker" "^4.11.0"
     "react-error-boundary" "^3.1.4"

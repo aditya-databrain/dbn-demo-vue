@@ -9,8 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "dbn-ui-test": "^0.0.1",
-    "dbn-ui-test-1": "^0.0.5",
+    "dbn-ui-test-1": "^0.0.6",
     "vue": "^3.2.47"
   },
   "devDependencies": {
