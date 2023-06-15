@@ -1,19 +1,17 @@
 <script setup lang="ts">
-import 'dbn-ui-test-1/web'
+import "@databrainhq/plugin/web";
+import { computed } from "vue";
+
+const props = computed(() => {
+  const url = new URL(location.href);
+  const token = url.searchParams.get("token");
+  const dashboardId = url.searchParams.get("dashboardId");
+  return { token, dashboardId };
+});
 </script>
 
 <template>
-  <div class="dbn-dashboard">
-    <dbn-dashboard
-      token="e0945419-7c0f-4390-9c0c-4c9ffcb4f735"
-    />
-    </div>
+  <dbn-dashboard :token="props.token" :dashboardId="props.dashboardId" />
 </template>
 
-<style scoped>
-.dbn-dashboard {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-}
-</style>
+<style scoped></style>

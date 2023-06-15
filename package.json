@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "dbn-ui-test-1": "^0.0.7",
+    "@databrainhq/plugin": "^0.11.7",
     "vue": "^3.2.47"
   },
   "devDependencies": {
